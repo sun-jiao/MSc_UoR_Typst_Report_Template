@@ -11,11 +11,12 @@ A literature review chapter can be organized in a few sections with appropriate 
 Note that your literature review should demonstrate the significance of the project.
 
 == Example of in-text citation of references in Typst
-The references in a report relate your content with the relevant sources, papers, and the works of others. To include references in a report, we _cite_ them in the texts. In Typst, references are managed through standard `.bib` (BibTeX) or `.yml` files, which are compiled cleanly into Harvard style using standard citation syntax `@key` or `#citep(<key>)` and `#citet(<key>)`.
+The references in a report relate your content with the relevant sources, papers, and the works of others. To include references in a report, we _cite_ them in the texts. In Typst, references are managed through standard `.bib` (BibTeX) or `.yml` files, which are compiled cleanly into Harvard style using standard citation syntax `@key`, `#cite(<key>)` or `#citep(<key>)` and `#citet(<key>)`.
 
 These are the examples of how to _cite_ external sources, seminal works, and research papers. In this template, BibTeX entries are stored in the `references.bib` file, and formatted according to the *Harvard style* recommended by the Department:
-- #citet(<typst_guide_latex_users>) has written a comprehensive guide on technical writing [Example of `#citet(<key>)` or `#cite(form: "prose", ...)`].
-- If technical tools are used efficiently and effectively, it helps in writing a very high-quality project report #citep(<typst_reference>) [Example of `#citep(<key>)` or `@key`].
+- #citet(<typst_guide_latex_users>) has written a comprehensive guide on technical writing [Example of `#cite(form: "prose", ...)` or `#citet(<key>)`].
+- If technical tools are used efficiently and effectively, it helps in writing a very high-quality project report #citep(<typst_reference>) [Example of `@key`, `#cite(<key>)` or `#citep(<key>)`].
+- `#citep(<key>)` and `#citet(<key>)` are custom citation commands defined in the `template.typ` file. You can use them to cite references in your report. They are not standard Typst commands, if you want to use standard Typst commands, you can use `#cite(<key>)` or `#key` and `#cite(form: "prose", <key>)` accordingly. 
 - A detailed APA, Harvard, and Chicago referencing style guide are available in #citep(<uor_refernce_style>).
 
 This is an example of how to construct a numbered list, including in-text, named and parenthetical citations:
