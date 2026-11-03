@@ -108,8 +108,8 @@ Simply edit the corresponding chapter files in the `chapters/` directory.
 | **Section heading** | `\section{Title}\label{sec:bg}` | `== Title <sec:bg>` |
 | **Subsection heading** | `\subsection{Title}` | `=== Title` |
 | **Cross-reference** | `\ref{ch:intro}` or `\Cref{ch:intro}` | `@ch:intro` |
-| **Parenthetical citation** | `\citep{lamport1994latex}` | `@lamport1994latex` or `#citep(<lamport1994latex>)` |
-| **Narrative citation** | `\cite{kottwitzlatex2021}` | `#citet(<kottwitzlatex2021>)` |
+| **Parenthetical citation** | `\citep{typst_reference}` | `@typst_reference` or `#citep(<typst_reference>)` |
+| **Narrative citation** | `\cite{typst_guide_latex_users}` | `#citet(<typst_guide_latex_users>)` |
 | **Inline equation** | `$s = \frac{1}{N} x_i$` | `$s = 1/N x_i$` |
 | **Display equation** | `\begin{equation}...\end{equation}` | `$ s = 1/N sum_(i=1)^N x_i $ <label>` |
 | **Insert image** | `\includegraphics[width=...]{...}` | `#figure(image("..."), caption: [...]) <label>` |

@@ -14,13 +14,13 @@ Note that your literature review should demonstrate the significance of the proj
 The references in a report relate your content with the relevant sources, papers, and the works of others. To include references in a report, we _cite_ them in the texts. In Typst, references are managed through standard `.bib` (BibTeX) or `.yml` files, which are compiled cleanly into Harvard style using standard citation syntax `@key` or `#citep(<key>)` and `#citet(<key>)`.
 
 These are the examples of how to _cite_ external sources, seminal works, and research papers. In this template, BibTeX entries are stored in the `references.bib` file, and formatted according to the *Harvard style* recommended by the Department:
-- #citet(<kottwitzlatex2021>) has written a comprehensive guide on technical writing [Example of `#citet(<key>)` or `cite(form: "prose", ...)`].
-- If technical tools are used efficiently and effectively, it helps in writing a very high-quality project report #citep(<lamport1994latex>) [Example of `#citep(<key>)` or `@key`].
+- #citet(<typst_guide_latex_users>) has written a comprehensive guide on technical writing [Example of `#citet(<key>)` or `#cite(form: "prose", ...)`].
+- If technical tools are used efficiently and effectively, it helps in writing a very high-quality project report #citep(<typst_reference>) [Example of `#citep(<key>)` or `@key`].
 - A detailed APA, Harvard, and Chicago referencing style guide are available in #citep(<uor_refernce_style>).
 
 This is an example of how to construct a numbered list, including in-text, named and parenthetical citations:
-+ #citet(<kottwitzlatex2021>) has written a comprehensive guide on typesetting.
-+ If technical typesetting is used efficiently and effectively, it helps in writing a very high-quality project report #citep(<lamport1994latex>).
++ #citet(<typst_tutorial>) has written a comprehensive guide on typesetting.
++ If technical typesetting is used efficiently and effectively, it helps in writing a very high-quality project report #citep(<typst_reference>).
 
 === Reference Resources <subsec:reflinks>
 You can find additional referencing resources from the University Library:

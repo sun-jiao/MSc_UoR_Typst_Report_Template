@@ -153,7 +153,7 @@ Have you noticed that all the variables of the equation are defined using the *i
 
 == Example of a Figure in Typst
 @fig:chart_a is an example of a figure in Typst. For more details, check the link:
-#link("https://en.wikibooks.org/wiki/LaTeX/Floats,_Figures_and_Captions")[wikibooks.org/wiki/LaTeX/Floats,\_Figures\_and\_Captions].
+#link("https://typst.app/docs/reference/model/figure/")[typst.app/docs/reference/model/figure].
 
 Keep your artwork (graphics, figures, illustrations) clean and readable. At least 300dpi is a good resolution of a PNG format artwork. However, an SVG format artwork saved as a PDF will produce the best quality graphics. There are numerous tools out there that can produce vector graphics and let you save that as an SVG file and/or as a PDF file. One example of such a tool is the "Flow algorithm software". Here is the link for that: #link("http://www.flowgorithm.org/download/")[flowgorithm.org].
 
